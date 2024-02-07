@@ -12,7 +12,7 @@
       *  OUTPUT FILE - EMPLOSATION RT                    *
       *              - REGIONAL SALES RE                           *
       *                                                                *
-      *  RUN JCL     - STORED IN THE ECC              *
+      *  RUN JCL     - STORED IN T            *
       *                                                                *
       ******************************************************************
        ENVIRONMENT DIVISION.
