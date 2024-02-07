@@ -10,7 +10,7 @@ jobs:
     name: sync & generate
     runs-on: [self-hosted, Windows]
     env:
-      Win_Topaz_Location: 'C:\Users\sandhata\BMC\WorkbenchCLI_23.01.02'
+      Win_Topaz_Location: 'C:\WorkbenchCLI'
           
     steps:
       - name: checkout step
@@ -22,17 +22,16 @@ jobs:
         uses: bmc-compuware/ispw-sync-local@main
         id: sync
         with:
-          host: 'BMC3.POPUP-MAINFRAME.COM'
+          host: 'BMC.POPUP-MAINFRAME.COM'
           port: 16196
           uid: ${{ secrets.TSOUSER }}
           pass: ${{ secrets.TSOPASS }}
           runtimeConfiguration: 'ISPT'
-          stream: 'DEMO'
-          application: 'DEMO'
-          subAppl: 'DEMO'
-          checkoutLevel: 'DEV'
+          stream: 'PLAY'
+          application: 'TEST'
+          checkoutLevel: 'DEV1'
           gitUid: ${{ secrets.GITUID }}
-          gitToken: ${{ secrets.GIT_TOKEN }}
+          gitToken: ${{ secrets.ACTIONS_KEY }}
           winTopazPath: ${{ env.Win_Topaz_Location }}
           #containerCreation: 'per-branch'
           showEnv: true
