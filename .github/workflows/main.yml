@@ -31,7 +31,7 @@ jobs:
           application: 'TEST'
           checkoutLevel: 'DEV1'
           gitUid: ${{ secrets.GITUID }}
-          gitToken: ${{ secrets.GIT_TOKEN }}
+          GITTOKEN: ${{ secrets.GIT_TOKEN }}
           winTopazPath: ${{ env.Win_Topaz_Location }}
           #containerCreation: 'per-branch'
           showEnv: true
