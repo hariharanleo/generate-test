@@ -9,7 +9,7 @@
       *                                                     *
       *  INPUT FILE  - EMPLOYEE WAGE INFORMATION                       *
       *              - STORED IN THE ECC SLCXCNTL      *
-      *  OUTPUT FILE - EMPLOYEE COMPENSATION REPORT                    *
+      *  OUTPUT FILE - EMPLOYEE COMPENSATION RT                    *
       *              - REGIONAL SALES REPORT                           *
       *                                                                *
       *  RUN JCL     - STORED IN THE ECC              *
