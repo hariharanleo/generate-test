@@ -12,7 +12,7 @@
       *  OUTPUT FILE - EMPLOSATION RT                    *
       *              - REGI                      *
       *                                                                *
-      *  RUN JCL     - STORED IN T            *
+      *  RUN JCL     - STORED             *
       *                                                                *
       ******************************************************************
        ENVIRONMENT DIVISION.
