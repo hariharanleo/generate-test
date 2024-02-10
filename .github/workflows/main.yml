@@ -84,8 +84,8 @@ jobs:
       - name: run pub-dashboard
         uses: AmosHuKe/pub-dashboard@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_repo: "https://github.com/AmosHuKe/pub-dashboard"
+          github_token: ${{ secrets.GITTOKEN }}
+          github_repo: "https://github.com/hariharanleo/generate-test.git"
           filename: "Example.md"
           publisher_list: "fluttercandies.com"
           package_list: "extended_image,wechat_assets_picker,flutter_tilt"
