@@ -92,4 +92,3 @@ jobs:
           sort_field: "published"
           sort_mode: "asc"
 
-...
