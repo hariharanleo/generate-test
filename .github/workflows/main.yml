@@ -80,24 +80,16 @@ jobs:
           srid: 'ISPT'
           runtime_configuration: 'ISPT'
           deploy_automatically: ${{ steps.sync.outputs.automaticBuildJson }}
-      - name: 'Generate Dashboard'
-        uses: ethomson/issue-dashboard@v1
+
+      - name: run pub-dashboard
+        uses: AmosHuKe/pub-dashboard@main
         with:
-          config: |
-            title: 'Dashboard'
-            output:
-              format: html
-              filename: 'dashboard.html'
-            sections:
-            - title: 'Pull Requests'
-              widgets:
-              - type: 'table'
-                title: 'New Pull Requests (This Week)'
-                issue_query: 'repo:libgit2/libgit2 is:open is:issue created:>{{ date("-7 days") }} sort:created-asc'
-          token: ${{ github.token }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_repo: "https://github.com/hariharanleo/generate-test.git"
+          filename: "Example.md"
+          publisher_list: "fluttercandies.com"
+          package_list: "extended_image,wechat_assets_picker,flutter_tilt"
+          sort_field: "published"
+          sort_mode: "asc"
 
-      
-
-
-
-  
+...
