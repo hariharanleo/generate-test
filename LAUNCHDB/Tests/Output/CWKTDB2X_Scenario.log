@@ -1,0 +1,42 @@
+11:52:31.529 INFO      Total Test       ***************************************
+11:52:31.530 INFO      Total Test       ** Execution from Topaz with options **
+11:52:31.530 INFO      Total Test       ***************************************
+11:52:31.532 INFO      Total Test       Using repository: false
+11:52:31.532 INFO      Total Test       ***************************************
+11:52:31.536 INFO      Engine           Test Scenario execution started
+11:52:31.537 INFO      Engine           Using context settings:
+  Engine Version                : 23.1.2.v20231101-1720_164
+  Environment id                : b7fc6393-229a-4899-8738-2c2ab97803f5
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 10.10.1.172
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 1047
+  Host user Id                  : IBMUSER
+  Use Repository Server         : false
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+11:52:31.537 INFO      Engine           Setting variables from context and context data extensions
+11:52:31.538 INFO      Engine             id: environmentId      value: b7fc6393-229a-4899-8738-2c2ab97803f5
+11:52:31.542 INFO      Engine             id: environmentType    value: BATCH
+11:52:31.542 INFO      Engine             id: userId             value: IBMUSER
+11:52:31.542 INFO      Engine             id: accountingInfo     value: 
+11:52:31.542 INFO      Engine             id: datasetHQL         value: 
+11:52:31.550 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
+11:52:32.474 INFO      Unittest         Using JCL skeleton to submit JCL
+11:52:39.410 INFO      Popup 172        Sending Job execution request to Host 
+11:52:45.457 INFO      Popup 172        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job IBMUSERA(JOB06110) ended with return code: 0000
+  Job name       : IBMUSERA
+  Job id         : JOB06110
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+11:52:48.891 INFO      Unittest         Execution completed
+11:52:48.892 INFO      Engine           Test Scenario execution ended
