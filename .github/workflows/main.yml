@@ -84,7 +84,7 @@ jobs:
       - name: run pub-dashboard
         uses: AmosHuKe/pub-dashboard@main
         with:
-          github_token: ${{ Personal access token }} or ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           github_repo: "https://github.com/AmosHuKe/pub-dashboard"
           filename: "Example.md"
           publisher_list: "fluttercandies.com"
