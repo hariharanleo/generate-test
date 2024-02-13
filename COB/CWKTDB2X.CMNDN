@@ -12,7 +12,7 @@
       *  OUTPUT FILE -            *
       *              - REGI                      *
       *                                                                *
-      *  RUN JCL     - STORED             *
+      *  RUN JCL     - S             *
       *                                                                *
       ******************************************************************
        ENVIRONMENT DIVISION.
