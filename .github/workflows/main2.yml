@@ -1,4 +1,4 @@
-name: code-pipeline-build-test
+name: code-pipeline-build-test2
 
 on:
   push:
