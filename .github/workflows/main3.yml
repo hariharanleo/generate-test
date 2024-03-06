@@ -2,10 +2,10 @@ name: code-pipeline-build-test
 
 on:
   push:
-    paths:
-      - 'COB/**'
     branches:
        - qa 
+    paths:
+      - 'COB/**'
       
 jobs:
   generate:
