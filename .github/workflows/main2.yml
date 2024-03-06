@@ -2,6 +2,8 @@ name: code-pipeline-build-test
 
 on:
   push:
+    paths:
+      - 'COB/**'
     branches:
        - feature 
       
